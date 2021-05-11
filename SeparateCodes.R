@@ -34,15 +34,6 @@ Separate_codes <- function(codesheet,code_col,separator,vars){
 return(file3)
 }
 
-output <- Separate_codes(
-  
-  codesheet = test,
-  code_col = c("SNOMEDCT_US_c","RCD2_c","ICD9CM_c" ),
-  separator = ",",
-  vars = c("Concept","Concept.name")
-  
-  
-)
 
 
 
