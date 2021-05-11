@@ -1,0 +1,12 @@
+Aim: if a column have cells with multiple parts of information separated by a known separator this 
+function gives every part of information a new cell on a new row
+
+Inputs
+codesheet:	 input dataset
+code_col:	 columns that needs be separated as "colname"
+separator:       Separator as ","
+vars:		Columns that need to be in the output file as c("col1","col2",)
+
+
+Output:
+A dataset
